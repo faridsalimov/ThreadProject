@@ -1,0 +1,16 @@
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\bin\Debug\ThreadProject.exe.config
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\bin\Debug\ThreadProject.exe
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\bin\Debug\ThreadProject.pdb
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.csproj.AssemblyReference.cache
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\App.g.cs
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject_MarkupCompile.cache
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject_MarkupCompile.lref
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\Views\MainWindow.baml
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.g.resources
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.Properties.Resources.resources
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.csproj.GenerateResource.cache
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.csproj.CoreCompileInputs.cache
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.exe
+C:\Users\Farid\source\repos\ThreadProject\ThreadProject\obj\Debug\ThreadProject.pdb

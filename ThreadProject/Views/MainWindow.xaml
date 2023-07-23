@@ -1,0 +1,44 @@
+﻿<Window x:Class="ThreadProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreadProject"
+        mc:Ignorable="d"
+        Title="Task Manager" Height="450" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.9*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.15*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox Text="{Binding AddItem}" Grid.Row="0" Margin="10" FontSize="15">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding AddItemCommand}"/>
+                </TextBox.InputBindings>
+            </TextBox>
+            <ListView ItemsSource="{Binding UnencryptedItems}" Grid.Row="1" Margin="10" FontSize="15"/>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0.3*"/>
+            </Grid.RowDefinitions>
+
+            <ListView ItemsSource="{Binding EncryptedItems}" Grid.Row="0" Margin="10" FontSize="15"/>
+
+            <Button Content="STOP" FontSize="16" Grid.Row="1" Margin="10,55,10,10" Command="{Binding StopCommand}"/>
+            <Button Content="PLAY" FontSize="15" Grid.Row="1" Margin="10,10,160,55" Command="{Binding PlayCommand}"/>
+            <Button Content="PAUSE" FontSize="15" Grid.Row="1" Margin="80,10,80,55" Command="{Binding PauseCommand}"/>
+            <Button Content="RESUME" FontSize="15" Grid.Row="1" Margin="160,10,10,55" Command="{Binding ResumeCommand}"/>
+        </Grid>
+    </Grid>
+</Window>
